@@ -3,5 +3,15 @@ height: 100%;
 }
 
 h1 {color: red;}
+p{color: white}
 
-
+body{
+    background-image: url("./xoooo.jpg") ;
+    filter: brightness(600%);
+    background-color: #cccccc;
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+}
