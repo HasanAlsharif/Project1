@@ -7,8 +7,7 @@ p{color: white}
 
 body{
     background-image: url("./xoooo.jpg") ;
-    filter: brightness(600%);
-    background-color: #cccccc;
+
     height: 800px;
     background-position: center;
     background-repeat: no-repeat;
@@ -26,6 +25,39 @@ height: 700px;
     position: relative;
     border:1px solid rgb(0, 255, 98);
     height: 500px;
-    width: 400px;
-    top: 90px;
+    width: 600px;
+    top: 70px;
+    left: 500px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px ;
+    grid-template-rows: 200px 200px 200px ;
+        
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50px;
+    left: 500px;
+    z-index: 1;
+
+
     }
+
+.xo{
+    
+    height: 100px;
+    width: 100px;
+    border:2px solid rgb(22, 7, 236);
+    background-color: rgb(247, 247, 248);
+
+}
+
+
+
+
+
+
+
+#start{
+
+    left: 400px;
+}
