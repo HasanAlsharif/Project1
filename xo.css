@@ -15,3 +15,17 @@ body{
     background-size:cover;
     position: relative;
 }
+
+#ref{
+position: relative;
+border:1px solid red;
+height: 700px;
+}
+
+#main{
+    position: relative;
+    border:1px solid rgb(0, 255, 98);
+    height: 500px;
+    width: 400px;
+    top: 90px;
+    }
